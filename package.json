@@ -2,13 +2,14 @@
   "name": "nasa-pic-of-day",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://yehuawang.github.io/nasa-pic-of-day",
+  "homepage": "https://yehuawang.github.io/NASA-Pic-of-Day",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
